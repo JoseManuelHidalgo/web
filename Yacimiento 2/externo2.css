@@ -1,0 +1,23 @@
+body{display: flex;
+	flex-direction: column;
+	margin: 0px;
+}
+
+header{background-color: red;
+   	height: 200px;
+}
+
+nav{background-color: green;
+	height: 80px;
+}
+
+article{background-color: blue;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+footer{background-color: black;
+	height: 150px;
+}
