@@ -40,6 +40,15 @@ img {
     
 }
 
+video {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-color: orangered;
+    
+}
+
 #mapa{
     text-align: center; 
 }
