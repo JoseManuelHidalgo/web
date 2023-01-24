@@ -40,18 +40,6 @@ img {
     
 }
 
-
-video {
-    
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #000;
-    border-color: orangered;
-    
-}
-
-iframe {
-    margin: 20px;
-    padding: 20px;  
-	 
+#mapa{
+    text-align: center; 
 }
