@@ -4,11 +4,15 @@ body{display: flex;
 }
 
 header{background-color: #B59174;
-   	height: 100px;
+   	height: 130px;
 	text-align: center;
     background-image: url("entrada-a-ses-paises-arta.jpg");
   background-size: cover;
   background-position: center;
+}
+
+nav{
+
 }
 
 aside{background-color: #b88b5c;
@@ -17,6 +21,14 @@ aside{background-color: #b88b5c;
 
 article{background-color: #C3A98B;
 	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+selection{
+    background-color: #C3A98B;
+    height: auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
