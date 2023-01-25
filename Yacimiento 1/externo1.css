@@ -12,7 +12,7 @@ header{background-color: #B59174;
 }
 
 nav{
-
+background-color: #b88b5c;
 }
 
 aside{background-color: #b88b5c;
@@ -21,9 +21,7 @@ aside{background-color: #b88b5c;
 
 article{background-color: #C3A98B;
 	height: auto;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	
 }
 
 selection{
@@ -66,4 +64,8 @@ video {
 
 #mapa{
     text-align: center;
+}
+
+table{
+    border: 1px black;
 }
