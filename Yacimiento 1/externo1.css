@@ -6,6 +6,9 @@ body{display: flex;
 header{background-color: #B59174;
    	height: 100px;
 	text-align: center;
+    background-image: url("entrada-a-ses-paises-arta.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 aside{background-color: #b88b5c;
@@ -25,7 +28,7 @@ footer{background-color: #623307;
 }
 
 p {
-    color: green;
+    color: black;
 }
 
 
@@ -42,7 +45,6 @@ img {
 }
 
 video {
-    text-align: center;
     margin: 20px;
     padding: 20px;
     border: 1px solid #000;
