@@ -1,6 +1,7 @@
 body{display: flex;
 	flex-direction: column;
 	margin: 0px;
+    background-color: aquamarine;
 }
 
 header{background-color: #B59174;
