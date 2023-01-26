@@ -1,7 +1,7 @@
 body{display: flex;
 	flex-direction: column;
 	margin: 0px;
-    background-color: aquamarine;
+    background-color: #B59174;
 }
 
 header{background-color: #B59174;
@@ -21,13 +21,12 @@ aside{background-color: #b88b5c;
 }
 
 article{background-color: #C3A98B;
-	height: auto;
+	
 	
 }
 
 selection{
     background-color: #C3A98B;
-    height: auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -40,11 +39,13 @@ footer{background-color: #623307;
 
 p {
     color: black;
+    width:720px;
+  margin:0 auto;
 }
 
 
 a:visited{
-    color: purple;
+    color: red;
 }
 
 img {
@@ -61,6 +62,7 @@ video {
     border: 1px solid #000;
     border-color: orangered;
     
+    
 }
 
 #mapa{
@@ -69,4 +71,12 @@ video {
 
 table{
     border: 1px black;
+    width:720px;
+  margin:0 auto;
+ border-collapse: collapse;
+}
+
+h1, h2{
+    width:720px;
+    margin:0 auto;
 }
