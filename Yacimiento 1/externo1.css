@@ -16,8 +16,8 @@ nav{
 background-color: #b88b5c;
 }
 
-aside{background-color: #b88b5c;
-	height: 600px;
+aside{background-image: url('poblado talayotico de ses paisses 12.12.18 - 002.jpeg');
+	
 }
 
 article{background-color: #C3A98B;
@@ -25,11 +25,9 @@ article{background-color: #C3A98B;
 	
 }
 
-selection{
-    background-color: #C3A98B;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+section{
+    background-color: #B59174;
+	
 }
 
 footer{background-color: #623307;
@@ -49,19 +47,21 @@ a:visited{
 }
 
 img {
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border: 1px solid #000;
     border-color: blue;
+    display: block;
+    
     
 }
 
 video {
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border: 1px solid #000;
     border-color: orangered;
-    
+    display: block;
     
 }
 
@@ -70,13 +70,13 @@ video {
 }
 
 table{
-    border: 1px black;
+    border: px black;
     width:720px;
-  margin:0 auto;
+  margin: auto;
  border-collapse: collapse;
 }
 
 h1, h2{
-    width:720px;
-    margin:0 auto;
+   text-align: center;
 }
+
