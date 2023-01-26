@@ -1,3 +1,5 @@
+
+
 body{display: flex;
 	flex-direction: column;
 	margin: 0px;
@@ -6,13 +8,15 @@ body{display: flex;
 header{background-color: #B59174;
    	height: 100px;
 	text-align: center;
+    background-image: url(sonfred.jpg.webp);
+
 }
 
 aside{background-color: #b88b5c;
 	height: 600px;
 }
 
-article{background-color: #C3A98B;
+article{background-color: #e3d7bf;
 	height: auto;
 	display: flex;
 	flex-direction: row;
@@ -24,7 +28,8 @@ footer{background-color: #623307;
 }
 
 p {
-    color: green;
+    color: rgb(73, 62, 48);
+
 }
 
 
