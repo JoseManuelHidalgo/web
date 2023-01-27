@@ -69,14 +69,18 @@ video {
     text-align: center;
 }
 
-table{
-    border: px black;
-    width:720px;
-  margin: auto;
- border-collapse: collapse;
-}
+
 
 h1, h2{
    text-align: center;
 }
 
+
+table tr:nth-child(odd) {
+    border: 1px solid gray; /* añade un borde a cada fila impar */
+    background-color: #f2f2f2; /* color de fondo para las filas impares */
+}
+table tr:nth-child(even) {
+    border: 1px solid #C3A98B; /* añade un borde a cada fila par */
+    background-color: #e6e6e6; /* color de fondo para las filas pares */
+}
