@@ -4,7 +4,7 @@ body{display: flex;
     background-color: #B59174;
 }
 
-header{background-color: #B59174;
+header{background-color: black;
    	height: 130px;
 	text-align: center;
     background-image: url("");
@@ -26,11 +26,12 @@ article{background-color: #C3A98B;
 }
 
 section{
-    background-color: #B59174;
+    background-color: grey;
+    color: white;
 	
 }
 
-footer{background-color: #623307;
+footer{background-color: #8f7358;
 	height: 30px;
     text-align: center;
 }
@@ -43,14 +44,14 @@ p {
 
 
 a:visited{
-    color: red;
+    color: white;
 }
 
 img {
     margin: auto;
     padding: 20px;
     border: 1px solid #000;
-    border-color: blue;
+    border-color: white;
     display: block;
     
     
@@ -60,7 +61,7 @@ video {
     margin: auto;
     padding: 20px;
     border: 1px solid #000;
-    border-color: orangered;
+    border-color: white;
     display: block;
     
 }
@@ -84,3 +85,4 @@ table tr:nth-child(even) {
     border: 1px solid #C3A98B; /* añade un borde a cada fila par */
     background-color: #e6e6e6; /* color de fondo para las filas pares */
 }
+
