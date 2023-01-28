@@ -1,22 +1,13 @@
-html{
+body{
     background-color: #e3d7bf;
 
 }
 
-h1{
 
-    text-align: center;
-    background-image: url(cielo.jpg);
-    background-size: auto;
-    size: 300px;
-
-
-
-}
 
 table{
     text-align: center;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 table td:first-child {
@@ -39,6 +30,55 @@ table td:first-child {
 table td{
     border: #c7b69f 1px solid;
 
+
+
+}
+
+header {
+    text-align: center;
+    background-image: url(cielo.jpg);
+
+
+}
+
+h1 {
+    background-image: url(cielo.jpg);
+
+
+}
+
+h2 {
+    display: block;
+    background-color: bisque;
+    
+
+}
+
+p {
+    color: black;
+    width:720px;
+  margin:0 auto;
+}
+
+u {
+    color: blue;
+}
+
+img{
+
+    margin-left: 270px;
+
+}
+
+form{
+size: 20px;
+margin-left: 150px;
+
+
+}
+
+img{
+    display: flex
 
 
 }
