@@ -2,15 +2,15 @@ body{display: flex;
 	flex-direction: column;
 	margin: 0px;
     background-color: #B59174;
-}
+} /* todo el contenido*/
 
-header{background-color: black;
+header{background-color: black; 
    	height: 130px;
 	text-align: center;
     background-image: url("");
   background-size: cover;
   background-position: center;
-}
+} 
 
 nav{
 background-color: #b88b5c;
@@ -55,7 +55,7 @@ img {
     display: block;
     
     
-}
+} /* tamaños y ajustes de las imagenes*/
 
 video {
     margin: auto;
@@ -64,7 +64,7 @@ video {
     border-color: white;
     display: block;
     
-}
+} /* video dentro de página*/
 
 #mapa{
     text-align: center;
