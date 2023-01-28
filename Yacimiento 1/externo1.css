@@ -86,3 +86,21 @@ table tr:nth-child(even) {
     background-color: #e6e6e6; /* color de fondo para las filas pares */
 }
 
+@media screen and (min-width: 1920px) {
+    img {
+      width: 100%;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    nav {
+      display: none;
+    
+    }
+    p {
+      font-size: 14px;
+    }
+  }
