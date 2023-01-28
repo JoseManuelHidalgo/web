@@ -58,7 +58,20 @@ p {
     color: black;
     width:720px;
   margin:0 auto;
+  line-height: 1.5;
+
 }
+
+p::first-letter {
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 0 rgb(205, 131, 85);
+    font-size: 120%;
+    padding: 4px 2px;
+    margin-right: 3px;
+    float: left;
+  }
 
 u {
     color: blue;
@@ -77,9 +90,16 @@ margin-left: 150px;
 
 }
 
-.p1{
+.caja {
 
-display: flex;
-flex-direction: row-reverse;
-
+    border: 1px solid black;
+    background-color: white;
+    font font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: bisque;
+    width: 1325px;
+    height: 50px;
+    line-height: 120px;
+    text-align: center;
+    
 }
