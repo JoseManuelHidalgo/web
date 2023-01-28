@@ -12,8 +12,9 @@ header{background-color: #B59174;
 
 }
 
-aside{background-color: #b88b5c;
+aside{background-image: url(MG_0971-Editar-Editar.webp);
 	height: 600px;
+    width: auto;
 }
 
 article{background-color: #e3d7bf;
@@ -23,8 +24,14 @@ article{background-color: #e3d7bf;
 	flex-wrap: wrap;
 }
 
+main{
+    background-image: url(sonfred.jpg.webp);
+	height: auto; 
+}
+
 footer{background-color: #623307;
 	height: 30px;
+    text-align: center;
 }
 
 p {
@@ -38,25 +45,36 @@ a:visited{
 }
 
 img {
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border: 1px solid #000;
     border-color: blue;
+    display: block;
     
 }
 
 
 video {
-    
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     border: 1px solid #000;
     border-color: orangered;
-    
+    display: block;
 }
 
 iframe {
     margin: 20px;
     padding: 20px;  
 	 
+}
+
+
+#mapa{
+    text-align: center;
+}
+
+
+
+h1, h2{
+   text-align: center;
 }
