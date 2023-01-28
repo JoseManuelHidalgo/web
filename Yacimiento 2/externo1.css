@@ -1,0 +1,88 @@
+body{display: flex;
+	flex-direction: column;
+	margin: 0px;
+    background-color: #B59174;
+} /* todo el contenido*/
+
+header{background-color: black; 
+   	height: 130px;
+	text-align: center;
+    background-image: url("");
+  background-size: cover;
+  background-position: center;
+} 
+
+nav{
+background-color: #b88b5c;
+}
+
+aside{background-image: url('poblado talayotico de ses paisses 12.12.18 - 002.jpeg');
+	
+}
+
+article{background-color: #C3A98B;
+	
+	
+}
+
+section{
+    background-color: grey;
+    color: white;
+	
+}
+
+footer{background-color: #8f7358;
+	height: 30px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    width:720px;
+  margin:0 auto;
+}
+
+
+a:visited{
+    color: white;
+}
+
+img {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-color: white;
+    display: block;
+    
+    
+} /* tamaños y ajustes de las imagenes*/
+
+video {
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-color: white;
+    display: block;
+    
+} /* video dentro de página*/
+
+#mapa{
+    text-align: center;
+}
+
+
+
+h1, h2{
+   text-align: center;
+}
+
+
+table tr:nth-child(odd) {
+    border: 1px solid gray; /* añade un borde a cada fila impar */
+    background-color: #f2f2f2; /* color de fondo para las filas impares */
+}
+table tr:nth-child(even) {
+    border: 1px solid #C3A98B; /* añade un borde a cada fila par */
+    background-color: #e6e6e6; /* color de fondo para las filas pares */
+}
+
